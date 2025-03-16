@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from "next/image";
 import styled from 'styled-components';
 import { Autoplay, EffectCoverflow, Navigation } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -59,7 +59,10 @@ const SwiperCards = () => {
                   height="200"
                   src={cluster.imageURL}
                   alt={cluster.name}
-                />
+                  style={{
+                    maxWidth: "100%",
+                    height: "auto"
+                  }} />
                 <TextContent>
                   <h3>{cluster.name}</h3>
                   <p>{cluster.cluster}</p>

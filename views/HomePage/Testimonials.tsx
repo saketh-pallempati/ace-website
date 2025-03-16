@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from "next/image";
 import React from 'react';
 import styled from 'styled-components';
 import { A11y, Autoplay, Navigation } from 'swiper';

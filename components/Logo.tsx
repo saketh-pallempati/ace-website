@@ -1,10 +1,18 @@
-import Image from 'next/image';
+import Image from "next/image";
 import styled from 'styled-components';
 
 export default function Logo({ ...rest }) {
   return (
     <LogoContainer {...rest}>
-      <Image src={'/ACE-bgless.png'} width={50} height={50} alt="Logo" />
+      <Image
+        src={'/ACE-bgless.png'}
+        width={50}
+        height={50}
+        alt="Logo"
+        style={{
+          maxWidth: "100%",
+          height: "auto"
+        }} />
       <LogoText>ACE</LogoText>
     </LogoContainer>
   );

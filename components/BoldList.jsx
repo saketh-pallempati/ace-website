@@ -18,13 +18,14 @@ const BoldList = () => {
       { threshold: 0.1 }
     );
 
-    if (menuRef.current) {
-      observer.observe(menuRef.current);
+    const currentMenuRef = menuRef.current;
+    if (currentMenuRef) {
+      observer.observe(currentMenuRef);
     }
 
     return () => {
-      if (menuRef.current) {
-        observer.unobserve(menuRef.current);
+      if (currentMenuRef) {
+        observer.unobserve(currentMenuRef);
       }
     };
   }, []);

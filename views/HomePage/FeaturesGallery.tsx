@@ -1,4 +1,4 @@
-import NextImage from 'next/image';
+import NextImage from "next/image";
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import Collapse from 'components/Collapse';
@@ -44,7 +44,15 @@ export default function FeaturesGallery() {
 
     return (
       <ImageContainer key={singleTab.title} isActive={isActive}>
-        <NextImage src={singleTab.imageUrl} alt={singleTab.title} layout="fill" objectFit="contain" priority={isFirst} />
+        <NextImage
+          src={singleTab.imageUrl}
+          alt={singleTab.title}
+          priority={isFirst}
+          fill
+          sizes="100vw"
+          style={{
+            objectFit: "contain"
+          }} />
       </ImageContainer>
     );
   });

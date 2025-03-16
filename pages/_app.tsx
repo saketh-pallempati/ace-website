@@ -4,6 +4,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/autoplay';
 
 import { AppProps } from 'next/dist/shared/lib/router/router';
+import { Analytics } from '@vercel/analytics/next';
 import Head from 'next/head';
 import { ColorModeScript } from 'nextjs-color-mode';
 import React, { PropsWithChildren } from 'react';
@@ -35,6 +36,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Providers>
         <Navbar items={navItems} />
         <Component {...pageProps} />
+        <Analytics />
         <WaveCta />
         <div id="footer">
           <Footer />

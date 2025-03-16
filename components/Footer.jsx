@@ -101,7 +101,7 @@ const Footer = () => {
         <span className="design">
           Designed by &nbsp;
           <a
-            href="https://github.com/ace-web-dev"
+            href="https://github.com/ace-webD/"
             target="_blank"
             rel="noopener noreferrer"
             className="link"
@@ -112,7 +112,7 @@ const Footer = () => {
       </div>
       <div className="social">
         <a
-          href="https://github.com/ace-web-dev"
+          href="https://github.com/ace-webD/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Exampl"

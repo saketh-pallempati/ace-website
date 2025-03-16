@@ -1,17 +1,15 @@
 # ACE Website
 
-The official website for ACE (Association of Computer Enginners), bringing aerospace knowledge and enthusiasm to the community.
+The official website for ACE (Association of Computer Engineers), bringing knowledge and enthusiasm to the community.
 
 ## Overview
 
-This website serves as the central hub for ACE, featuring information about our club, events, projects, resources, and methods to get involved. Built with modern web technologies, this platform aims to inspire and connect aerospace enthusiasts.
+This website serves as the central hub for ACE, featuring information about our club, events, projects, resources, and methods to get involved. Built with modern web technologies, this platform aims to inspire and connect computer science enthusiasts.
 
 ## Features
 
 - **Club Information**: Learn about ACE's mission, vision, and history
 - **Events Calendar**: Stay updated on upcoming workshops, talks, and competitions
-- **Project Showcase**: Explore current and past aerospace projects
-- **Resources**: Access educational materials and aerospace-related content
 - **Membership**: Information on how to join and participate in club activities
 - **Contact**: Easy ways to reach out to club leadership
 

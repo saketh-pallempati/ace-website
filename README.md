@@ -68,3 +68,5 @@ The website is automatically deployed when changes are pushed to the main branch
 For questions or suggestions regarding the website, please contact:
 - Website Team: [ace.webd@gmail.com](mailto:ace.webd@gmail.com)
 - Club Leadership: [ace.soc.sastra@gmail.com](mailto:ace.soc.sastra@gmail.com)
+
+Peace
